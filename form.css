@@ -1,0 +1,59 @@
+/* attribution de palette de couleur*/
+:root{
+    --body-clr--:rgb(50, 50, 63);
+    --button-clr--:rgb(0, 0, 255);
+    --button-color-h--:rgb(59, 59, 178);
+    --border-clr--:white;
+    --titre-clr--:white;
+    --hr-clr--:burlywood;
+}
+/*body*/
+body{
+  margin: auto;
+  padding: auto;
+  font-family: "Roboto", sans-serif;
+  font-weight: 200;
+  background-color: var(--body-clr--);
+}
+/*form*/
+form {
+  margin: 50px;
+  padding: 40px 20px;
+  width: 50%;
+}
+
+h1{
+   color: var(--titre-clr--);
+   font-size: 22px;
+}
+label{
+    color: var(--titre-clr--);
+    font-size: 15px;
+}
+hr{
+    border: none;
+    border: 3px solid var(--hr-clr--);
+}
+p{
+    color: var(--titre-clr--);
+}
+.btn{
+  background-color: var(--button-clr--);
+  border: none;
+  color: var(--titre-clr--);
+  font-size: 15px;
+  padding:auto;
+  
+}
+.btn:hover{
+  background-color: var(--button-color-h--);
+}
+input[type="text"],[type="email"],[type="password"]{
+padding-bottom: 10px;
+border: none;
+outline: none;
+ 
+}
+input:hover{
+  box-shadow: 3px 5px 5px var(--hr-clr--);
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire Html</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alan+Sans:wght@300..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <hr>
+    <form action="" method="post">
+        <h1>Bienvenue sur mon formulaire</h1>
+        <label for="Nom">Nom :</label><br>
+        <input type="text" placeholder="Entrer votre nom !" id="nom" name="nom" required><br><br>
+        <label for="prenom">Prenom :</label><br>
+        <input type="text" placeholder="Entrer votre premom !" id="premom" name="prenom" required><br><br>
+        <label for="mdp">Mot de passe :</label><br>
+        <input type="password" placeholder="Entrer votre mot de passe !" id="mdp" name="mdp" pattern="(?=.*[A-Z])(?=.*[a-z])(?=.*\d)(?=.*[@$!%*?&]).{8,}"><br><br>
+        <button class="btn" type="submit">Envoyer</button><br><br>
+        <input type="checkbox" name="check" required><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium adipisci, voluptatum voluptatem in nulla ducimus laborum atque, doloremque, at enim labore sequi assumenda. Ea ipsum voluptates neque animi, adipisci ipsam.</p>
+
+    </form>
+   <hr>
+    <!--<form>
+        <h1>choisir ta voiture</h1><br>
+        <label for="nom">choisir ta voiture :</label><select name="cars" id="cars">
+            <optgroup label="Mercedes"></optgroup>
+            <option value="class-G">class-G</option>
+            <option value="GLE">GLE</option>
+            </optgroup>
+             <option value="suzuki">Suzuki</option>
+              <option value="Audi">Audi</option>
+        </select>
+    </form>
+    <hr>-->
+    
+</body>
+</html>

@@ -1,0 +1,26 @@
+:root{
+    --button-back--:linear-gradient(to right, purple,skyblue);
+    --button-h--:linear-gradient(to left,skyblue, pink);
+    --button-clr--:white;
+    --button-clr-h--:yellowgreen;
+}
+button{
+    margin: 130px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background:var(--button-back--);
+    /*border-radius:;*/
+    border: transparent;
+    color: var(--button-clr--);
+    font-weight: bold;
+    font-size: 20px;
+    
+    
+}
+button:hover{
+    box-shadow: 10px 10px 10px rgb(40, 38, 38);
+    background: var(--button-h--);
+
+}
